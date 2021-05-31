@@ -1524,7 +1524,7 @@
             </column>
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0it90041myqby21h4a85w1g34yjk].[Action (Property Type)]'>
-            <groupfilter function='member' level='[property_type]' member='&quot;apartment&quot;' user:ui-action-filter='[Action2]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[property_type]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.0it90041myqby21h4a85w1g34yjk].[none:state_name:nk]' kind='hide'>
             <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
@@ -1710,7 +1710,7 @@
             <column-instance column='[Calculation_804455526848446487]' derivation='User' name='[usr:Calculation_804455526848446487:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0it90041myqby21h4a85w1g34yjk].[Action (Property Type)]'>
-            <groupfilter function='member' level='[property_type]' member='&quot;apartment&quot;' user:ui-action-filter='[Action2]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[property_type]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.0it90041myqby21h4a85w1g34yjk].[Action (Property Type)]</column>
@@ -1864,7 +1864,7 @@
             <column-instance column='[Calculation_804455526848446487]' derivation='User' name='[usr:Calculation_804455526848446487:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0it90041myqby21h4a85w1g34yjk].[Action (Property Type)]'>
-            <groupfilter function='member' level='[property_type]' member='&quot;apartment&quot;' user:ui-action-filter='[Action2]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[property_type]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.0it90041myqby21h4a85w1g34yjk].[Action (Property Type)]</column>
@@ -2028,7 +2028,7 @@
             <column-instance column='[Calculation_804455526848446487]' derivation='User' name='[usr:Calculation_804455526848446487:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0it90041myqby21h4a85w1g34yjk].[Action (Property Type)]'>
-            <groupfilter function='member' level='[property_type]' member='&quot;apartment&quot;' user:ui-action-filter='[Action2]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[property_type]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.0it90041myqby21h4a85w1g34yjk].[Action (Property Type)]</column>
@@ -2193,7 +2193,7 @@
             <column-instance column='[Calculation_804455526848446487]' derivation='User' name='[usr:Calculation_804455526848446487:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0it90041myqby21h4a85w1g34yjk].[Action (Property Type)]'>
-            <groupfilter function='member' level='[property_type]' member='&quot;apartment&quot;' user:ui-action-filter='[Action2]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[property_type]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.0it90041myqby21h4a85w1g34yjk].[Action (Property Type)]</column>
@@ -2496,7 +2496,7 @@
             </column>
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0it90041myqby21h4a85w1g34yjk].[Action (Property Type)]'>
-            <groupfilter function='member' level='[property_type]' member='&quot;apartment&quot;' user:ui-action-filter='[Action2]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[property_type]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.0it90041myqby21h4a85w1g34yjk].[none:Calculation_804455526810812433:nk]' kind='hide'>
             <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
@@ -2667,7 +2667,7 @@
             <column-instance column='[created_on]' derivation='Month-Trunc' name='[tmn:created_on:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0it90041myqby21h4a85w1g34yjk].[Action (Property Type)]'>
-            <groupfilter function='member' level='[property_type]' member='&quot;apartment&quot;' user:ui-action-filter='[Action2]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[property_type]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <manual-sort column='[federated.0it90041myqby21h4a85w1g34yjk].[none:property_type:nk]' direction='ASC'>
             <dictionary>
@@ -3016,17 +3016,17 @@
             </column>
             <column-instance column='[Calculation_804455526988111901]' derivation='User' name='[usr:Calculation_804455526988111901:qk:20]' pivot='key' type='quantitative'>
               <table-calc ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
-              <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526987763740]' ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
               <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526995963945]' ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
+              <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526987763740]' ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
               <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526990037024]' ordering-type='Field'>
                 <order field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' />
                 <order field='[federated.0it90041myqby21h4a85w1g34yjk].[state_name]' />
               </table-calc>
-              <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526989672479]' ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
               <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526993129512]' ordering-type='Field'>
                 <order field='[federated.0it90041myqby21h4a85w1g34yjk].[state_name]' />
                 <order field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' />
               </table-calc>
+              <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526989672479]' ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
               <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526996369450]' ordering-type='Field'>
                 <order field='[federated.0it90041myqby21h4a85w1g34yjk].[state_name]' />
                 <order field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' />
@@ -3034,17 +3034,17 @@
             </column-instance>
             <column-instance column='[Calculation_804455526988357662]' derivation='User' name='[usr:Calculation_804455526988357662:qk:15]' pivot='key' type='quantitative'>
               <table-calc ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
-              <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526995963945]' ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
               <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526987763740]' ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
+              <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526995963945]' ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
               <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526990037024]' ordering-type='Field'>
                 <order field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' />
                 <order field='[federated.0it90041myqby21h4a85w1g34yjk].[state_name]' />
               </table-calc>
+              <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526989672479]' ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
               <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526993129512]' ordering-type='Field'>
                 <order field='[federated.0it90041myqby21h4a85w1g34yjk].[state_name]' />
                 <order field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' />
               </table-calc>
-              <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526989672479]' ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
               <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526996369450]' ordering-type='Field'>
                 <order field='[federated.0it90041myqby21h4a85w1g34yjk].[state_name]' />
                 <order field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' />
@@ -3052,11 +3052,11 @@
             </column-instance>
             <column-instance column='[Calculation_804455526995963945]' derivation='User' name='[usr:Calculation_804455526995963945:qk:1]' pivot='key' type='quantitative'>
               <table-calc ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
-              <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526989672479]' ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
               <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526993129512]' ordering-type='Field'>
                 <order field='[federated.0it90041myqby21h4a85w1g34yjk].[state_name]' />
                 <order field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' />
               </table-calc>
+              <table-calc field='[federated.0it90041myqby21h4a85w1g34yjk].[Calculation_804455526989672479]' ordering-field='[federated.0it90041myqby21h4a85w1g34yjk].[Path (bin)]' ordering-type='Field' />
             </column-instance>
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0it90041myqby21h4a85w1g34yjk].[Action (Property Type)]'>
@@ -3789,7 +3789,7 @@
         </viewpoint>
         <viewpoint name='Property Type' />
       </viewpoints>
-      <active id='-1' />
+      <active id='4' />
       <simple-id uuid='{ACF7DA61-768B-4D3D-8429-78E7FEA088C0}' />
     </window>
   </windows>
