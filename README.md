@@ -3,9 +3,9 @@
 ## Project: Real State Predictor MEXICO CITY
 ### by Susana Martin Wanton
 
-### Goal: Ironhack final project. A system that connects Big Query with Python and Tableau, capable of obtaining and processing information for analysis and visualization.
+#### Goal: Ironhack final project. A system that connects Big Query with Python and Tableau, capable of obtaining and processing information for analysis and visualization.
 
-### Result: Single-web-application that uses multiple trained machine learning models to predict property price from interactive data.
+#### Result: Single-web-application that uses multiple trained machine learning models to predict property price from interactive data.
 
 
 
@@ -24,10 +24,9 @@ We establish the connection with Google BigQuery.
 
 #### Data Analysis
 
-```bash
 **Cleaning and reorganizing the database:**
 [data_preparation.ipynb](https://github.com/Sussi-MW/ironhack_final_project/tree/master/notebook) 
-```
+
 
 - Exploring the data sets
 - Handle Categorical Data
@@ -36,8 +35,8 @@ We establish the connection with Google BigQuery.
 - Prediction Model Trainings 
 
 ```bash
-	- **Scikit-learn imported models:**
-	- Ridge, Lasso, SGDRegressor, GradientBoostingRegressor, RandomForestRegressor,         DecisionTreeRegressor, MLPRegressor
+Scikit-learn imported models:
+Ridge, Lasso, SGDRegressor, GradientBoostingRegressor, RandomForestRegressor, DecisionTreeRegressor, MLPRegressor
 ```
 
 #### Machine Learning Platform: H2O.ai 
@@ -49,7 +48,7 @@ We use H2O that allows us to interactively execute machine learning workflows an
 [H2O documentation can be found here](https://github.com/Sussi-MW/ironhack_final_project/tree/master/h2o.ai) 
 
 
-#### Montaje de App Web:
+#### Web App Assembly:
 
 Using Streamlit as an app framework to create a website that predicts the prices of the indicated property, entering the data related to the location and surface.
 
@@ -59,11 +58,11 @@ Using Streamlit as an app framework to create a website that predicts the prices
 ---
 ### Resources used
 
-* [scikit-learn Machine Learning in Python] (https://scikit-learn.org/stable/index.html]
-* [Python Functional Programming How To Documentation](https://docs.python.org/3.7/howto/functional.html]
-* [Python Errors and Exceptions Documentation](https://docs.python.org/3/tutorial/errors.html]
-* [StackOverflow String Operation Questions](https://stackoverflow.com/questions/tagged/string+python]
-* [https://en.wikipedia.org/wiki/Sentiment_analysis]
+* [scikit-learn Machine Learning in Python] (https://scikit-learn.org/stable/index.html)
+* [Python Functional Programming How To Documentation](https://docs.python.org/3.7/howto/functional.html)
+* [Python Errors and Exceptions Documentation](https://docs.python.org/3/tutorial/errors.html)
+* [StackOverflow String Operation Questions](https://stackoverflow.com/questions/tagged/string+python)
+* [Wikipedia](https://en.wikipedia.org/wiki/Sentiment_analysis)
 * [BigQuery public datasets](https://cloud.google.com/bigquery/public-data)
 * [Tableau](https://www.tableau.com/es-es/support/help)
 * [H2O 3](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/welcome.html)
