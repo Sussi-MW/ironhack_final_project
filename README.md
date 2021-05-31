@@ -1,4 +1,4 @@
-
+<img src="https://github.com/Sussi-MW/ironhack_final_project/blob/master/image/deshboard.gif">
 
 ## Project: Real State Predictor MEXICO CITY
 ### by Susana Martin Wanton
