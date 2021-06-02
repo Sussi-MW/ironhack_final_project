@@ -43,7 +43,7 @@ Ridge, Lasso, SGDRegressor, GradientBoostingRegressor, RandomForestRegressor, De
 
 We use H2O that allows us to interactively execute machine learning workflows and provides a visualization of those models in a business analysis environment.
 
-<img src="https://github.com/Sussi-MW/ironhack_final_project/blob/master/h2o.ai/03%20Visualize.JPG">
+<img src="https://github.com/Sussi-MW/ironhack_final_project/blob/master/h2o.ai/02.2%20Visualize.JPG">
 
 [H2O documentation can be found here](https://github.com/Sussi-MW/ironhack_final_project/tree/master/h2o.ai) 
 
@@ -58,7 +58,7 @@ Using Streamlit as an app framework to create a website that predicts the prices
 ---
 ### Resources used
 
-* [scikit-learn Machine Learning in Python] (https://scikit-learn.org/stable/index.html)
+* [scikit-learn Machine Learning in Python](https://scikit-learn.org/stable/index.html)
 * [Python Functional Programming How To Documentation](https://docs.python.org/3.7/howto/functional.html)
 * [Python Errors and Exceptions Documentation](https://docs.python.org/3/tutorial/errors.html)
 * [StackOverflow String Operation Questions](https://stackoverflow.com/questions/tagged/string+python)
